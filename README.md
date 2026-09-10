@@ -169,6 +169,8 @@ Contributions, issues, and feature requests are welcome!
 ---
 
 ## To Be Added:
+ CI/ CD pipeline that automates checks
+
 
 ---
 
