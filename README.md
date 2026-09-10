@@ -1,6 +1,6 @@
 # FastAPI DevOps Boilerplate
 
-A hardened, containerized **FastAPI** starter kit built with DevSecOps practices baked in from the start — non-root container isolation, strict runtime payload validation, and input-sanitization middleware — so you can focus on business logic instead of re-implementing security basics on every new service.
+A hardened, containerized **FastAPI** starter kit built with DevOps practices baked in from the start — non-root container isolation, strict runtime payload validation, and input-sanitization middleware — so you can focus on business logic instead of re-implementing security basics on every new service.
 
 ---
 
@@ -168,9 +168,7 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## License
-
-No license has been specified for this project yet. Consider adding a `LICENSE` file (e.g., MIT) to clarify how others can use, modify, and distribute this code.
+## To Be Added:
 
 ---
 
