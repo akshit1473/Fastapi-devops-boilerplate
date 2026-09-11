@@ -109,7 +109,6 @@ Configuration is managed via environment variables, loaded through `pydantic-set
 > Check `.env.example` for the full, up-to-date list of variables as the project evolves.
 
 ---
-
 ## API Reference
 
 Once the server is running, FastAPI's auto-generated docs are available at:
@@ -119,7 +118,6 @@ Once the server is running, FastAPI's auto-generated docs are available at:
 - OpenAPI schema: `http://localhost:8000/openapi.json`
 
 ---
-
 ## Security Design
 
 This boilerplate is opinionated about security so that insecure defaults don't leak into production:
@@ -132,7 +130,6 @@ This boilerplate is opinionated about security so that insecure defaults don't l
 > This project provides a *foundation*, not a complete security audit. Review and adapt the sanitization rules and dependency versions to your own threat model before deploying to production.
 
 ---
-
 ## Tech Stack
 
 | Component            | Purpose                                  |
@@ -143,9 +140,7 @@ This boilerplate is opinionated about security so that insecure defaults don't l
 | [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) | Typed environment configuration |
 | [python-dotenv](https://github.com/theskumar/python-dotenv) | `.env` file loading |
 | Docker (multi-stage) | Containerized, hardened deployment |
-
 ---
-
 ## Roadmap
 
 - [ ] Add automated tests (pytest) and CI workflow (GitHub Actions)
@@ -153,25 +148,7 @@ This boilerplate is opinionated about security so that insecure defaults don't l
 - [ ] Add rate limiting middleware
 - [ ] Publish a production `docker-compose.prod.yml` example
 - [ ] Add pre-commit hooks (lint, format, security scan)
-
 ---
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m "Add my feature"`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Open a Pull Request
-
----
-
 ## To Be Added:
  CI/ CD pipeline that automates checks
 
-
----
-
-**Maintainer:** [akshit1473](https://github.com/akshit1473)
