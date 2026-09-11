@@ -16,9 +16,7 @@ A hardened, containerized **FastAPI** starter kit built with DevOps practices ba
 - [API Reference](#api-reference)
 - [Security Design](#security-design)
 - [Tech Stack](#tech-stack)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
